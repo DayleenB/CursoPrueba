@@ -1,0 +1,40 @@
+2025-02-17 16:42:37.934 [info] [main] Log level: Info
+2025-02-17 16:42:37.934 [info] [main] Validating found git in: "git"
+2025-02-17 16:42:37.934 [info] [main] Using git "2.43.0" from "git"
+2025-02-17 16:42:37.934 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-17 16:42:37.934 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-17 16:42:37.934 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:42:37.934 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-17 16:42:37.934 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:42:37.936 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-17 16:42:37.936 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:42:37.940 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-17 16:42:37.940 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:42:37.945 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-17 16:43:20.812 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-17 16:43:20.813 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:45:10.744 [info] > git rev-parse --show-toplevel [14ms]
+2025-02-17 16:45:10.744 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:48:31.963 [info] > git rev-parse --show-toplevel [16ms]
+2025-02-17 16:48:31.964 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:50.978 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-17 16:50:50.979 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:53.369 [info] > git rev-parse --show-toplevel [0ms]
+2025-02-17 16:50:53.369 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:53.388 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-17 16:50:53.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:53.398 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-17 16:50:53.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:53.409 [info] > git rev-parse --show-toplevel [0ms]
+2025-02-17 16:50:53.409 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:53.415 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-17 16:50:53.415 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:50:54.845 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/acorn-jsx/node_modules/acorn/". Error:Error: ENOENT: no such file or directory, realpath '/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/acorn-jsx/node_modules/acorn/'
+2025-02-17 16:50:54.849 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/es6-symbol/". Error:Error: ENOENT: no such file or directory, realpath '/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/es6-symbol/'
+2025-02-17 16:50:54.852 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/balanced-match/". Error:Error: ENOENT: no such file or directory, realpath '/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/balanced-match/'
+2025-02-17 16:50:54.857 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/ext/". Error:Error: ENOENT: no such file or directory, realpath '/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/ext/'
+2025-02-17 16:50:54.861 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/supports-preserve-symlinks-flag/". Error:Error: ENOENT: no such file or directory, realpath '/home/dayleen/.vscode-server/extensions/.59825811-d160-4b2e-b17b-a2780e6cdd47/node_modules/supports-preserve-symlinks-flag/'
+2025-02-17 16:50:54.971 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-17 16:50:54.971 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-17 16:51:05.062 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-17 16:51:05.062 [info] fatal: not a git repository (or any of the parent directories): .git
