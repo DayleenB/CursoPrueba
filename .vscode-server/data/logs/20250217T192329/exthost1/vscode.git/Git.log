@@ -1,0 +1,50 @@
+2025-02-17 19:23:36.299 [info] [main] Log level: Info
+2025-02-17 19:23:36.299 [info] [main] Validating found git in: "git"
+2025-02-17 19:23:36.299 [info] [main] Using git "2.43.0" from "git"
+2025-02-17 19:23:36.299 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-17 19:23:36.299 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-17 19:23:36.299 [info] > git rev-parse --git-dir --git-common-dir [93ms]
+2025-02-17 19:23:36.299 [info] [Model][openRepository] Opened repository: /home/dayleen
+2025-02-17 19:23:36.320 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-17 19:23:36.323 [info] > git config --get commit.template [15ms]
+2025-02-17 19:23:36.337 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-17 19:23:36.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-02-17 19:23:36.386 [info] > git rev-parse --show-toplevel [43ms]
+2025-02-17 19:23:36.394 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [25ms]
+2025-02-17 19:23:36.400 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-17 19:23:36.409 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-17 19:23:36.418 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-17 19:23:36.428 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-17 19:23:36.450 [info] > git status -z -uall [93ms]
+2025-02-17 19:23:36.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2025-02-17 19:23:36.622 [info] > git config --get --local branch.main.vscode-merge-base [26ms]
+2025-02-17 19:23:36.623 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-17 19:23:36.629 [info] > git config --get commit.template [78ms]
+2025-02-17 19:23:36.650 [info] > git reflog main --grep-reflog=branch: Created from *. [20ms]
+2025-02-17 19:23:36.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-02-17 19:23:36.681 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [26ms]
+2025-02-17 19:23:36.681 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-17 19:23:36.681 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-17 19:23:36.687 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-02-17 19:23:36.728 [info] > git status -z -uall [58ms]
+2025-02-17 19:23:36.904 [info] > git check-ignore -v -z --stdin [17ms]
+2025-02-17 19:23:36.906 [info] > git show --textconv :nuevoarchivo.html [10ms]
+2025-02-17 19:23:36.910 [info] > git ls-files --stage -- /home/dayleen/nuevoarchivo.html [7ms]
+2025-02-17 19:23:36.920 [info] > git cat-file -s 00a322f4f5e7907fbd5774b6699d6ba2263c9b35 [6ms]
+2025-02-17 19:23:36.971 [info] > git blame --root --incremental 85a9658c407a8507845caf16a9c5b8d17579e717 -- /home/dayleen/nuevoarchivo.html [4ms]
+2025-02-17 19:23:40.411 [info] > git config --get commit.template [4ms]
+2025-02-17 19:23:40.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-17 19:23:40.443 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-17 19:23:40.488 [info] > git status -z -uall [59ms]
+2025-02-17 19:23:45.506 [info] > git config --get commit.template [6ms]
+2025-02-17 19:23:45.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-17 19:23:45.519 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-17 19:23:45.569 [info] > git status -z -uall [57ms]
+2025-02-17 19:23:49.878 [info] > git config --get commit.template [6ms]
+2025-02-17 19:23:49.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-17 19:23:49.890 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-17 19:23:49.936 [info] > git status -z -uall [54ms]
+2025-02-17 19:23:54.956 [info] > git config --get commit.template [6ms]
+2025-02-17 19:23:54.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-17 19:23:54.969 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-17 19:23:55.012 [info] > git status -z -uall [51ms]
